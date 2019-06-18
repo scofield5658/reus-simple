@@ -1,8 +1,8 @@
-export default [
+module.exports = [
   {
     path: '/hello',
     method: 'get',
-    controller: require('../controllers/hello').default,
-    middlewares: [require('../middlewares/hello.mid').default],
+    controller: require('../controllers/hello'),
+    middlewares: [require('../middlewares/hello.mid')],
   },
 ];

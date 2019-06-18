@@ -1,7 +1,7 @@
-import hello from './hello';
-import limit from './limit';
+const Hello = require('./hello');
+const Limit = require('./limit');
 
-export default [
-  ...hello,
-  ...limit,
+module.exports = [
+  ...Hello,
+  ...Limit,
 ];

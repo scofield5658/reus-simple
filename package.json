@@ -4,6 +4,6 @@
     "start": "reus launch ."
   },
   "dependencies": {
-    "reus": "https://github.com/scofield5658/reus"
+    "reus.js": "0.0.6"
   }
 }

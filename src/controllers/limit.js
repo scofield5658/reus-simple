@@ -1,8 +1,10 @@
-import { Controller } from 'reus';
+const { Controller } = require('reus.js');
 
-export default class LimitController extends Controller {
+class LimitController extends Controller {
   async index() {
     const { ctx } = this;
     ctx.body = 'hello from LimitController';
   }
 }
+
+module.exports = LimitController;

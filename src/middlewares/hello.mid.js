@@ -1,9 +1,11 @@
-import { Middleware } from 'reus';
+const { Middleware } = require('reus.js');
 
-export default class HelloMiddleware extends Middleware {
+class HelloMiddleware extends Middleware {
   async index() {
     const { next } = this;
     console.log('before hello');
     return next();
   }
 }
+
+module.exports = HelloMiddleware;

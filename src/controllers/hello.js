@@ -1,8 +1,10 @@
-import { Controller } from 'reus';
+const { Controller } = require('reus.js');
 
-export default class HelloController extends Controller {
+class HelloController extends Controller {
   async index() {
     const { ctx } = this;
     ctx.body = 'hello from HelloController';
   }
 }
+
+module.exports = HelloController;
