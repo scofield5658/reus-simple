@@ -1,6 +1,6 @@
 {
   "name": "reus-simple",
-  "scripts":{
+  "scripts": {
     "start": "reus launch ."
   },
   "dependencies": {
