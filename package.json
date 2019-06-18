@@ -1,0 +1,9 @@
+{
+  "name": "reus-simple",
+  "scripts":{
+    "start": "reus launch ."
+  },
+  "dependencies": {
+    "reus": "https://github.com/scofield5658/reus"
+  }
+}
