@@ -7,6 +7,6 @@
     "deploy": "reus launch ."
   },
   "dependencies": {
-    "reus.js": "0.1.1"
+    "reus.js": "0.2.1"
   }
 }
