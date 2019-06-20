@@ -5917,10 +5917,10 @@ ret@~0.1.10:
   resolved "https://registry.npm.taobao.org/ret/download/ret-0.1.15.tgz#b8a4825d5bdb1fc3f6f53c2bc33f81388681c7bc"
   integrity sha1-uKSCXVvbH8P29Twrwz+BOIaBx7w=
 
-reus.js@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/reus.js/-/reus.js-0.3.0.tgz#34e36bd3714f6505868b0a231eb0c57f463ee4ae"
-  integrity sha512-hGx3CgmZCEww93PyVqPl9Azf+UBBw9qz41xovzyvsnqEMejtDr25uAGAXfx0yx7YMmLk5d3RO5A+/LvUL1/FHA==
+reus.js@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/reus.js/-/reus.js-0.3.1.tgz#5d14cab9a678da26bd28e5dc98185b0e50569e2b"
+  integrity sha512-wmXe7or0uFmSdzSFWxOMZeJEjIpFmKy61OWoEb6M8+wmddHTfCsSzF/pzhx8L1e7Wfq/HYNmrPdBy4wvk9++JQ==
   dependencies:
     "@koa/cors" "^2.2.3"
     babel-core "^6.26.3"
