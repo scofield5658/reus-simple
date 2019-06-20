@@ -3,7 +3,7 @@ const { Controller } = require('reus.js');
 class LimitController extends Controller {
   async index() {
     const { ctx } = this;
-    ctx.body = 'hello from LimitController';
+    ctx.json({ data: 'hello from LimitController' });
   }
 }
 
