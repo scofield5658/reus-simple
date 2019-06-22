@@ -1,12 +1,14 @@
 {
   "name": "reus-simple-starter",
   "version": "1.0.0",
+  "private": true,
+  "author": "guozhi <zhi.guo@geekthings.com.cn>",
   "scripts": {
     "start": "reus launch . --mode dev",
     "build": "reus build .",
     "deploy": "reus launch ."
   },
   "dependencies": {
-    "reus.js": "^1.0.0"
+    "reus.js": "^1.0.7"
   }
 }
