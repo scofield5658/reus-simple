@@ -2,14 +2,14 @@
   "name": "reus-simple-starter",
   "version": "1.0.0",
   "private": true,
-  "author": "guozhi <zhi.guo@geekthings.com.cn>",
+  "author": "guozhi <guozhi5658@gmail.com>",
   "scripts": {
     "start": "reus launch . --mode dev",
     "build": "reus build .",
     "deploy": "reus launch ."
   },
   "dependencies": {
-    "reus.js": "^1.1.1"
+    "reus.js": "^1.1.2"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.2"
