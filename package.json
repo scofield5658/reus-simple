@@ -9,9 +9,6 @@
     "deploy": "reus launch ."
   },
   "dependencies": {
-    "reus.js": "^1.1.2"
-  },
-  "devDependencies": {
-    "babel-eslint": "^10.0.2"
+    "reus.js": "^1.1.3"
   }
 }
